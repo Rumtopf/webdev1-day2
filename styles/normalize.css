@@ -358,3 +358,15 @@ html {box-sizing: border-box;}
 	max-width: 31.25rem; /*Makes our page size only*/
 	margin: 0 auto;
   }
+ 
+  embed,
+iframe,
+object {
+  max-width: 100%;
+}
+ 
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
